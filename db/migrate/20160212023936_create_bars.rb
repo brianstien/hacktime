@@ -1,0 +1,11 @@
+class CreateBars < ActiveRecord::Migration
+  def change
+    create_table :bars do |t|
+      t.string :name
+      t.text :description
+      t.text :big_field
+
+      t.timestamps null: false
+    end
+  end
+end
