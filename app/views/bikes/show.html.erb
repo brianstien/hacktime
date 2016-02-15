@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @bike.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @bike.description %>
+</p>
+
+<p>
+  <strong>Big field:</strong>
+  <%= @bike.big_field %>
+</p>
+
+<%= link_to 'Edit', edit_bike_path(@bike) %> |
+<%= link_to 'Back', bikes_path %>

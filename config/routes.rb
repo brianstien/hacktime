@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :airplanes
+  resources :cars
+  resources :bikes
   resources :beers
   resources :bars
   resources :foos

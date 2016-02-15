@@ -16,3 +16,15 @@ Bar.create(:name => "bar3", :description => "bar description 3")
 Beer.create(:name => "beer1", :description => "beer description 1")
 Beer.create(:name => "beer2", :description => "beer description 2")
 Beer.create(:name => "beer3", :description => "beer description 3")
+
+Bike.create(:name => "bike1", :description => "bike description 1")
+Bike.create(:name => "bike2", :description => "bike description 2")
+Bike.create(:name => "bike3", :description => "bike description 3")
+
+Car.create(:name => "car1", :description => "car description 1")
+Car.create(:name => "car2", :description => "car description 2")
+Car.create(:name => "car3", :description => "car description 3")
+
+Airplane.create(:name => "airplane1", :description => "airplane description 1")
+Airplane.create(:name => "airplane2", :description => "airplane description 2")
+Airplane.create(:name => "airplane3", :description => "airplane description 3")
